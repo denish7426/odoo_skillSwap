@@ -1,71 +1,54 @@
-# React + Tailwind CSS Setup
+# Odoo SkillSwap Project
 
-This is a modern React application built with Vite and styled with Tailwind CSS.
+This repository contains the Odoo SkillSwap project with separate branches for frontend and backend development.
 
-## Features
+## Project Structure
 
+### Branches
+
+- **`main`** - Project overview and documentation
+- **`frontend`** - React + Tailwind CSS frontend application
+- **`backend`** - Backend API and server code (to be developed)
+
+## Frontend Branch
+
+The frontend branch contains a modern React application built with:
 - ⚡️ **Vite** - Fast build tool and development server
 - ⚛️ **React 19** - Latest React with modern features
 - 🎨 **Tailwind CSS** - Utility-first CSS framework
 - 🔧 **PostCSS** - CSS processing with autoprefixer
-- 📦 **ESLint** - Code linting and formatting
 
-## Getting Started
+### Getting Started with Frontend
 
-### Prerequisites
+1. Switch to the frontend branch:
+   ```bash
+   git checkout frontend
+   ```
 
-- Node.js (version 16 or higher)
-- npm or yarn
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Installation
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-```bash
-npm install
-```
+4. Open your browser and navigate to `http://localhost:5173`
 
-2. Start the development server:
-```bash
-npm run dev
-```
+## Backend Branch
 
-3. Open your browser and navigate to `http://localhost:5173`
+The backend branch will contain the server-side code (to be developed).
 
-## Available Scripts
+## Development Workflow
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+1. **Frontend Development**: Work on the `frontend` branch
+2. **Backend Development**: Work on the `backend` branch
+3. **Main Branch**: Keep project documentation and overview
 
-## Project Structure
+## Contributing
 
-```
-src/
-├── App.jsx          # Main application component
-├── main.jsx         # Application entry point
-├── index.css        # Global styles with Tailwind directives
-└── assets/          # Static assets
-```
-
-## Tailwind CSS
-
-This project uses Tailwind CSS for styling. The configuration is in `tailwind.config.js` and includes:
-
-- Custom animations (like `animate-spin-slow`)
-- Responsive design utilities
-- Custom color schemes and spacing
-
-## Customization
-
-You can customize the Tailwind configuration by editing `tailwind.config.js`. The current setup includes:
-
-- Content paths for all React components
-- Custom animations
-- Extensible theme configuration
-
-## Learn More
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/)
+- Create feature branches from the appropriate branch (frontend/backend)
+- Submit pull requests to merge back to the respective branch
+- Keep the main branch clean for documentation only
